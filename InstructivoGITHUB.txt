@@ -1,9 +1,9 @@
-git clone https//:...
+git clone https//**Repositorio**
 
 git fetch
 git status
 
-git add .
+git add . //Agregar todos los cambios hechos por nosotros
 git commit -m "Inserte un comentario"
 git pull                             //EN CASO DE QUE HAYA CAMBIOS EN ESTATUS
 git push                            //SI HAY ARCHIVOS MEZCLADOS ARROJA UN ERROR 
