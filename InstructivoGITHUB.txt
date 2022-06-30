@@ -1,0 +1,11 @@
+git clone https//:...
+
+git fetch
+git status
+
+git add .
+git commit -m "Inserte un comentario"
+git pull                             //EN CASO DE QUE HAYA CAMBIOS EN ESTATUS
+git push                            //SI HAY ARCHIVOS MEZCLADOS ARROJA UN ERROR 
+		     Y HAY QUE IR A REVISAR EL ARCHIVO PARA VOLVER
+		     A HACER EL COMMIT, Y AHÍ SÍ REALIZAR EL PUSH 
