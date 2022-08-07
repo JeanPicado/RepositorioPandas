@@ -17,12 +17,12 @@ create table duenio(
 	id_duenio int auto_increment primary key,
     nombre varchar(50),
     apellido varchar(50),
-    nombre_usuario varchar(60),
     telefono varchar(50),
     email varchar(50),
     clave varchar(50),
     verificacion bit(1) default 0
 );
+alter table duenio drop column nombre_usuario;
 
 create table cliente(
 	id_cliente bigint auto_increment primary key,
@@ -72,6 +72,7 @@ create table reserva(
 );
 
 
-insert into cliente(nombre, apellido, email, telefono, verificacion) values ("Lucas", "Martinez", "LucMar@yahoo.com", "9990923", 0);
+insert into cliente(id_cliente, nombre, apellido, email, telefono, verificacion) values ("Lucas", "Martinez", "LucMar@yahoo.com", "9990923", 0);
 alter table cliente drop column nombre_usuario;
 alter table cliente add clave varchar(50);
+select * from cliente;
