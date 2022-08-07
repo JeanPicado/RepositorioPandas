@@ -1,0 +1,16 @@
+Jean: US-03, US-08, US-04
+Elminson: US-01 (Hacer también el envío del correo para validar la cuenta)
+Didyan: US-05, US-07
+Carlos: US-06
+René: US-09
+
+FALTANTES: 
+	- HTML para subir maquinaria
+	- HTML para reportes?
+
+Lunes: Revisión de que todos tengamos la BD y los HTML
+Miércoles: Revisión de los microservicios funcionales (Parte 1)
+Viernes: Revisión de los microservicios funcionales (Parte 2)
+Domingo: Dockerización y Kubernetes
+Martes: Revisión de Dockerización y Kubernetes
+Miércoles: Uso de la Plataforma
