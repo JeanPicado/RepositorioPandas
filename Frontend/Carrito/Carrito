@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquinarias</title>
+    <!--Css-->
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"></head>
+<body>
+   <header class="intro">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="Principal.html"><img src="images/logo.png" width="120px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="Principal.html">Home</a></li>
+                    <li><a href="maquinas.html">Maquinas</a></li>
+                    <li><a href="detalles de reservas.html">Reservas</a></li>
+                    <li><a href="Login.html">Ingresar</a></li>
+                    
+                </ul>
+            </nav>
+   </header>
+           
+        
+
+            <!-- Carrito-->
+          
+ <main>
+    <!-- Start DEMO HTML (Use the following code into your project)-->
+  <header class="header">
+ <div class="container header__top">
+   <div class="header__logo">
+
+   </div>
+   <div class="header__cart">
+     <ul>
+       <li class="header__submenu" id="submenu">
+         <button class="header__cart-btn" id="toggle-cart-btn"><svg class="cart" width="24" height="24" viewBox="0 0 24 24">
+ <path d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z"></path>
+</svg> Your Cart</button>
+         <div id="shopping-cart" class="shopping-cart-container">
+           <table id="cart-content">
+             <thead>
+               <tr>
+                 <th>Image</th>
+                 <th>Name</th>
+                 <th>Price</th>
+                 <th></th>
+               </tr>
+             </thead>
+             <tbody></tbody>
+           </table>
+           <p class="total-container" id="total-price"></p>
+           <a href="#" id="checkout-btn" class="cart-btn">Checkout</a>
+           <a href="#" id="clear-cart" class="cart-btn">Clear Cart</a>
+         </div>
+       </li>
+     </ul>
+   </div>
+ </div>
+
+ <div class="arrow"><svg width="24" height="24" viewBox="0 0 24 24">
+ <path d="M11,4H13V16L18.5,10.5L19.92,11.92L12,19.84L4.08,11.92L5.5,10.5L11,16V4Z"></path>
+</svg></div>
+</header>
+<main class="container page-content">
+ 
+ <div class="grid" id="grid">
+   <div class="card">
+     <img src="images/imagen-maq1.jpg"  class="card__image" alt="">
+     <div class="card__info">
+       <h4 class="card__title">Cargadores de ruedas</h4>
+       <p class="card__text">Disponilidad:</p>
+       <p class="card__price">$50.00/hr</p>
+       <button class="card__btn add-to-cart" data-id="6">Add to Cart</button>
+     </div>
+   </div>
+   <!--.card-->
+   <div class="card">
+     <img src="images/imagen-maq2.jpg" class="card__image" alt="">
+     <div class="card__info">
+       <h4 class="card__title">Camiones Articulados</h4>
+       <p class="card__text">Disponilidad</p>
+       <p class="card__price">$100/hr</p>
+       <button class="card__btn add-to-cart" data-id="7">Add to Cart</button>
+     </div>
+   </div>
+   <!--.card-->
+   <div class="card">
+     <img src="images/imagen-maq3.jpg" class="card__image" alt="">
+     <div class="card__info">
+       <h4 class="card__title">Excavadoras</h4>
+       <p class="card__text">Disponibilidad</p>
+       <p class="card__price">$150/hr</p>
+       <button class="card__btn add-to-cart" data-id="8">Add to Cart</button>
+     </div>
+   </div>
+   <!--.card-->
+   <div class="card">
+     <img src="images/imagen-maq4.jpg" alt="" class="card__image">
+     <div class="card__info">
+       <h4 class="card__title">Minicargadores</h4>
+       <p class="card__text">Disponibilidad</p>
+       <p class="card__price">$120/hr</p>
+       <button class="card__btn add-to-cart" data-id="9">Add to Cart</button>
+     </div>
+   </div>
+   <!--.card-->
+   <div class="card">
+     <img src="images/imagen-maq5.jpg"alt="" class="card__image">
+     <div class="card__info">
+       <h4 class="card__title">Minicargador de Oruga</h4>
+       <p class="card__text">Disponibilidad</p>
+       <p class="card__price">$100/hr</p>
+       <button class="card__btn add-to-cart" data-id="10">Add to Cart</button>
+     </div>
+   </div>
+   <!--.card-->
+   <div class="card">
+     <img src="images/imagen-maq6.jpg" alt="" class="card__image">
+     <div class="card__info">
+       <h4 class="card__title">Motoniveladores</h4>
+       <p class="card__text">Disponibilidad</p>
+       <p class="card__price">$300/hr</p>
+       <button class="card__btn add-to-cart" data-id="11">Add to Cart</button>
+     </div>
+   </div>
+   <!--.card-->
+   <div class="card">
+     <img src="images/imagen-maq7.jpg" alt="" class="card__image">
+     <div class="card__info">
+       <h4 class="card__title">Retroexcavadoras</h4>
+       <p class="card__text">Disponibilidad</p>
+       <p class="card__price">$200/hr</p>
+       <button class="card__btn add-to-cart" data-id="12">Add to Cart</button>
+     </div>
+   </div>
+   <div class="card">
+    <img src="images/imagen-maq8.jpg" alt="" class="card__image">
+    <div class="card__info">
+      <h4 class="card__title">Tractores Topadores</h4>
+      <p class="card__text">Disponibilidad</p>
+      <p class="card__price">$200/hr</p>
+      <button class="card__btn add-to-cart" data-id="12">Add to Cart</button>
+    </div>
+  </div>
+   <!--.card-->
+ </div>
+</main>  <div class="page-btn">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>&#8594;</span>
+</div>
+</main>
+
+            <!--  ****************************************         -->
+
+        
+     
+
+    <!--footer-->
+    <div class="footer">
+        <div class="">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Descarga nuestra app!</h3>
+                    <p>Descarga nuestra app movil para IOS y Android.</p>
+                    <div class="app-logo">
+                        <img src="images/app-store.png">
+                        <img src="images/play-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p>Descarga nuestra app movil para IOS y Android.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Panda's Machine</h3>
+                    <ul>
+                        <li>Producto</li>
+                        <li>Beneficios</li>
+                        <li>Partners</li>
+                        <li>Equipo</li>
+                    </ul>
+                </div> 
+                <div class="footer-col-4">
+                    <h3>Siguenos!</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Pandas</p>
+        </div>
+    </div>
+<!--js for toggle menu-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if (MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px"
+            }else{
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+     
+  <script  src="./js/script.js"></script>
+
+</body>
+</html>
